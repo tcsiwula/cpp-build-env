@@ -9,3 +9,5 @@ LABEL "rating"="five stars" "class"="first class"
 
 # by defualt, docker runs all processes as root within the container
 USER root
+
+ADD VERSION .
